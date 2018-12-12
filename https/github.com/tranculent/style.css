@@ -1,0 +1,60 @@
+body {
+	font-family: Oswald;
+	background: #c21500;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+a {
+	width: 2.6vw;
+	height: 2.6vw;
+	margin: 6px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: brown;
+}
+#calculator {
+	border: 1px solid black;
+	width: 15%;
+	margin: auto;
+	margin-top: 60px;
+	background-color: wheat;
+	border-bottom-left-radius: 12px;
+	border-bottom-right-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.wideButt {
+	width: 6vw;
+}
+
+#calcOutput {
+	background-color: wheat;
+	border: 1px solid black;
+	width:15%;
+	margin: auto;
+	position: relative;
+	top: 60px;
+	height: 70px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#steps {
+	position: relative;
+	float: right;
+	padding-right: 10px;
+	font-size: 2.3em;
+	bottom: 8px;
+	font-weight: 700;
+}
+
+#secondSteps {
+	position: relative;
+	float: right;
+	font-size: 1.3em;
+	top: 33px;
+	left: 14px;
+	font-style: italic;
+}
